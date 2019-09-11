@@ -24,5 +24,7 @@ Each day must be represented by a 100px × 100px #eeeeee-colored cell (including
 Upon hovering over a cell, the cursor should become pointer. The hovered cell has to become pink and rise by 20 pixels; both of these properties are to be animated with the duration of half a second.
 
 Please see a [reference image](reference.png).
+**Result**
 
+[UPDATE DEMO LINK](https://karpyshynroman.github.io/markup_calendar/src/) <br>
 You are encouraged to use SASS (.scss) for this task. Please do not use JavaScript.
