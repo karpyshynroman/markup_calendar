@@ -1,7 +1,6 @@
-$width : 100px;
-$height : 100px;
+$size : 100px;
 $days: ('mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun');
-$indexDaysInWeek : 1;
+$index : 1;
 $fullMonthDuration: 31;
 
 * {
@@ -24,35 +23,34 @@ body {
   grid-gap: 1px;
 
   div {
-    width: $width;
-    height: $height;
+    width: $size;
+    height: $size;
     background-color: #eee;
     border: 1px solid black;
     transition: background-color 0.5s, transform 0.5s;
   }
 
-  div:hover {
-    background-color: pink;
-    transform: translate(0, -20px);
-    cursor: pointer;
-  }
-
   @for $i from 1 through $fullMonthDuration {
+    div:nth-child(#{$i}):hover {
+      background-color: pink;
+      transform: translate(0, -20px);
+      cursor: pointer;
+    }
     div:nth-child(#{$i})::after {
       content: "#{$i}";
-      display: inline-block;
-      width: $width;
-      text-align: center;
-      line-height: $height;
+      display: flex;
+      justify-content: center;
+      width: $size;
+      line-height: $size;
     }
   }
 }
 
 @each $day in $days {
   .calendar-#{$day} > div:nth-child(1) {
-    grid-column-start: (#{$indexDaysInWeek});
+    grid-column-start: (#{$index });
   }
-  $indexDaysInWeek : $indexDaysInWeek + 1;
+  $index : $index + 1;
 }
 
 @for $num from 28 to $fullMonthDuration {
@@ -60,4 +58,3 @@ body {
     display: none;
   }
 }
-

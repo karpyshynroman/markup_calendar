@@ -24,226 +24,376 @@ body {
   border: 1px solid black;
   transition: background-color 0.5s, transform 0.5s;
 }
-.calendar div:hover {
+.calendar div:nth-child(1):hover {
   background-color: pink;
   transform: translate(0, -20px);
   cursor: pointer;
 }
 .calendar div:nth-child(1)::after {
   content: "1";
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   width: 100px;
-  text-align: center;
   line-height: 100px;
+}
+.calendar div:nth-child(2):hover {
+  background-color: pink;
+  transform: translate(0, -20px);
+  cursor: pointer;
 }
 .calendar div:nth-child(2)::after {
   content: "2";
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   width: 100px;
-  text-align: center;
   line-height: 100px;
+}
+.calendar div:nth-child(3):hover {
+  background-color: pink;
+  transform: translate(0, -20px);
+  cursor: pointer;
 }
 .calendar div:nth-child(3)::after {
   content: "3";
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   width: 100px;
-  text-align: center;
   line-height: 100px;
+}
+.calendar div:nth-child(4):hover {
+  background-color: pink;
+  transform: translate(0, -20px);
+  cursor: pointer;
 }
 .calendar div:nth-child(4)::after {
   content: "4";
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   width: 100px;
-  text-align: center;
   line-height: 100px;
+}
+.calendar div:nth-child(5):hover {
+  background-color: pink;
+  transform: translate(0, -20px);
+  cursor: pointer;
 }
 .calendar div:nth-child(5)::after {
   content: "5";
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   width: 100px;
-  text-align: center;
   line-height: 100px;
+}
+.calendar div:nth-child(6):hover {
+  background-color: pink;
+  transform: translate(0, -20px);
+  cursor: pointer;
 }
 .calendar div:nth-child(6)::after {
   content: "6";
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   width: 100px;
-  text-align: center;
   line-height: 100px;
+}
+.calendar div:nth-child(7):hover {
+  background-color: pink;
+  transform: translate(0, -20px);
+  cursor: pointer;
 }
 .calendar div:nth-child(7)::after {
   content: "7";
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   width: 100px;
-  text-align: center;
   line-height: 100px;
+}
+.calendar div:nth-child(8):hover {
+  background-color: pink;
+  transform: translate(0, -20px);
+  cursor: pointer;
 }
 .calendar div:nth-child(8)::after {
   content: "8";
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   width: 100px;
-  text-align: center;
   line-height: 100px;
+}
+.calendar div:nth-child(9):hover {
+  background-color: pink;
+  transform: translate(0, -20px);
+  cursor: pointer;
 }
 .calendar div:nth-child(9)::after {
   content: "9";
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   width: 100px;
-  text-align: center;
   line-height: 100px;
+}
+.calendar div:nth-child(10):hover {
+  background-color: pink;
+  transform: translate(0, -20px);
+  cursor: pointer;
 }
 .calendar div:nth-child(10)::after {
   content: "10";
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   width: 100px;
-  text-align: center;
   line-height: 100px;
+}
+.calendar div:nth-child(11):hover {
+  background-color: pink;
+  transform: translate(0, -20px);
+  cursor: pointer;
 }
 .calendar div:nth-child(11)::after {
   content: "11";
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   width: 100px;
-  text-align: center;
   line-height: 100px;
+}
+.calendar div:nth-child(12):hover {
+  background-color: pink;
+  transform: translate(0, -20px);
+  cursor: pointer;
 }
 .calendar div:nth-child(12)::after {
   content: "12";
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   width: 100px;
-  text-align: center;
   line-height: 100px;
+}
+.calendar div:nth-child(13):hover {
+  background-color: pink;
+  transform: translate(0, -20px);
+  cursor: pointer;
 }
 .calendar div:nth-child(13)::after {
   content: "13";
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   width: 100px;
-  text-align: center;
   line-height: 100px;
+}
+.calendar div:nth-child(14):hover {
+  background-color: pink;
+  transform: translate(0, -20px);
+  cursor: pointer;
 }
 .calendar div:nth-child(14)::after {
   content: "14";
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   width: 100px;
-  text-align: center;
   line-height: 100px;
+}
+.calendar div:nth-child(15):hover {
+  background-color: pink;
+  transform: translate(0, -20px);
+  cursor: pointer;
 }
 .calendar div:nth-child(15)::after {
   content: "15";
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   width: 100px;
-  text-align: center;
   line-height: 100px;
+}
+.calendar div:nth-child(16):hover {
+  background-color: pink;
+  transform: translate(0, -20px);
+  cursor: pointer;
 }
 .calendar div:nth-child(16)::after {
   content: "16";
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   width: 100px;
-  text-align: center;
   line-height: 100px;
+}
+.calendar div:nth-child(17):hover {
+  background-color: pink;
+  transform: translate(0, -20px);
+  cursor: pointer;
 }
 .calendar div:nth-child(17)::after {
   content: "17";
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   width: 100px;
-  text-align: center;
   line-height: 100px;
+}
+.calendar div:nth-child(18):hover {
+  background-color: pink;
+  transform: translate(0, -20px);
+  cursor: pointer;
 }
 .calendar div:nth-child(18)::after {
   content: "18";
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   width: 100px;
-  text-align: center;
   line-height: 100px;
+}
+.calendar div:nth-child(19):hover {
+  background-color: pink;
+  transform: translate(0, -20px);
+  cursor: pointer;
 }
 .calendar div:nth-child(19)::after {
   content: "19";
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   width: 100px;
-  text-align: center;
   line-height: 100px;
+}
+.calendar div:nth-child(20):hover {
+  background-color: pink;
+  transform: translate(0, -20px);
+  cursor: pointer;
 }
 .calendar div:nth-child(20)::after {
   content: "20";
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   width: 100px;
-  text-align: center;
   line-height: 100px;
+}
+.calendar div:nth-child(21):hover {
+  background-color: pink;
+  transform: translate(0, -20px);
+  cursor: pointer;
 }
 .calendar div:nth-child(21)::after {
   content: "21";
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   width: 100px;
-  text-align: center;
   line-height: 100px;
+}
+.calendar div:nth-child(22):hover {
+  background-color: pink;
+  transform: translate(0, -20px);
+  cursor: pointer;
 }
 .calendar div:nth-child(22)::after {
   content: "22";
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   width: 100px;
-  text-align: center;
   line-height: 100px;
+}
+.calendar div:nth-child(23):hover {
+  background-color: pink;
+  transform: translate(0, -20px);
+  cursor: pointer;
 }
 .calendar div:nth-child(23)::after {
   content: "23";
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   width: 100px;
-  text-align: center;
   line-height: 100px;
+}
+.calendar div:nth-child(24):hover {
+  background-color: pink;
+  transform: translate(0, -20px);
+  cursor: pointer;
 }
 .calendar div:nth-child(24)::after {
   content: "24";
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   width: 100px;
-  text-align: center;
   line-height: 100px;
+}
+.calendar div:nth-child(25):hover {
+  background-color: pink;
+  transform: translate(0, -20px);
+  cursor: pointer;
 }
 .calendar div:nth-child(25)::after {
   content: "25";
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   width: 100px;
-  text-align: center;
   line-height: 100px;
+}
+.calendar div:nth-child(26):hover {
+  background-color: pink;
+  transform: translate(0, -20px);
+  cursor: pointer;
 }
 .calendar div:nth-child(26)::after {
   content: "26";
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   width: 100px;
-  text-align: center;
   line-height: 100px;
+}
+.calendar div:nth-child(27):hover {
+  background-color: pink;
+  transform: translate(0, -20px);
+  cursor: pointer;
 }
 .calendar div:nth-child(27)::after {
   content: "27";
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   width: 100px;
-  text-align: center;
   line-height: 100px;
+}
+.calendar div:nth-child(28):hover {
+  background-color: pink;
+  transform: translate(0, -20px);
+  cursor: pointer;
 }
 .calendar div:nth-child(28)::after {
   content: "28";
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   width: 100px;
-  text-align: center;
   line-height: 100px;
+}
+.calendar div:nth-child(29):hover {
+  background-color: pink;
+  transform: translate(0, -20px);
+  cursor: pointer;
 }
 .calendar div:nth-child(29)::after {
   content: "29";
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   width: 100px;
-  text-align: center;
   line-height: 100px;
+}
+.calendar div:nth-child(30):hover {
+  background-color: pink;
+  transform: translate(0, -20px);
+  cursor: pointer;
 }
 .calendar div:nth-child(30)::after {
   content: "30";
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   width: 100px;
-  text-align: center;
   line-height: 100px;
+}
+.calendar div:nth-child(31):hover {
+  background-color: pink;
+  transform: translate(0, -20px);
+  cursor: pointer;
 }
 .calendar div:nth-child(31)::after {
   content: "31";
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   width: 100px;
-  text-align: center;
   line-height: 100px;
 }
 
